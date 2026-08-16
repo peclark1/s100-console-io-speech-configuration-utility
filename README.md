@@ -62,11 +62,11 @@ Selecting a preset marks the individual parameters as `(preset)`, because the pr
 
 - `VOICE.ASM` — 8080-compatible source
 - `VOICE.COM` — ready-to-run CP/M executable
-- `VOICE.HEX` — Intel HEX image starting at `0100h`
 - `CHANGELOG.md` — version history
+- `SHA256SUMS.txt` — checksums for the source and executable
 
 ## Building
 
-The source uses Intel 8080 instructions and is intended to assemble at `ORG 0100h` with a conventional CP/M-compatible 8080 assembler. If the assembler generates an Intel HEX file, use CP/M `LOAD` to create the `.COM` file.
+The source uses Intel 8080 instructions and is intended to assemble at `ORG 0100h` with a conventional CP/M-compatible 8080 assembler. If the assembler generates an Intel HEX file, CP/M `LOAD` can be used to create the `.COM` file.
 
 The checked-in `VOICE.COM` is the executable produced from the checked-in V1.2 source.

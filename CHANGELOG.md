@@ -10,6 +10,7 @@
 - Added signature, format version, range validation, and checksum to the configuration file.
 - Preserves RC8660 preset semantics: only explicitly overridden parameters are reapplied after a preset.
 - `D` now restores factory voice settings and the original test phrase; saving remains explicit.
+- Hardware-tested successfully on the IMSAI/S-100 system.
 
 ## V1.1 — 2026-08-16
 
